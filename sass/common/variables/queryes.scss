@@ -1,0 +1,72 @@
+@media screen and (max-width: 1850px) {
+  .overview {
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .doctors {
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header .searchBar input {
+    width: 170px !important;
+  }
+  
+  .recent {
+    overflow-x: scroll;
+    td {
+      padding: 10px 30px 10px 0px;
+  }
+}
+}
+
+@media screen and (max-width: 770px) {
+  .header {
+    padding: 10px 20px !important;
+  }
+  .navbar {
+    padding: 20px 12px !important;
+  }
+
+  .close {
+    width: 66px !important;
+  }
+
+  .content {
+    padding: 30px 35px !important;
+  }
+
+  .content-close {
+    left: 66px !important;
+    width: calc(100% - 66px) !important;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .searchBar, .header-icons .icon1, .header-icons .icon3 {
+    display: none !important;
+  }
+
+  .navbar {
+    width: 0px !important;
+    left: -300px !important;
+  }
+
+  .close {
+    left: 0px !important;
+    width: 300px !important;
+    a {
+      opacity: 1 !important;
+      pointer-events: all !important;
+    }
+  }
+
+  .content {
+    left: 0 !important;
+    width: 100% !important;
+    padding: 30px 10px !important;
+  }
+}

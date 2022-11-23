@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <header class="header">
+    <div class="icon-logo">
+      <i class="fa-solid fa-bars bars"></i>
+      <a href="index.html" class="logo">Med<span>Ex</span></a>
+    </div>
+    <div class="searchBar">
+      <input type="text" name="text" id="text" placeholder="Search something...">
+      <label for="text">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </label>
+    </div>
+    <div class="header-icons">
+      <i class="fa-solid fa-lock header-icon icon1"></i>
+      <i class="fa-solid fa-bell header-icon icon2"></i>
+      <i class="fa-solid fa-comment-medical header-icon icon3"></i>
+      <img src="imgs/profile.jpg" class="profile" alt="profile">
+    </div>
+  </header>
+  <nav class="navbar">
+    <ul class="nav-items">
+      <li class="nav-item active">
+        <i class="fa-solid fa-table nav-icon1"></i>
+        <a href="index.html">Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <i class="fa-solid fa-calendar-days nav-icon2"></i>
+        <a href="index.html">Schedule</a>
+      </li>
+      <li class="nav-item">
+        <i class="fa-solid fa-user-doctor nav-icon3"></i>
+        <a href="index.html">Reliable Doctor</a>
+      </li>
+      <li class="nav-item">
+        <i class="fa-solid fa-user nav-icon4"></i>
+        <a href="index.html">Patients</a>
+      </li>
+      <li class="nav-item">
+        <i class="fa-solid fa-chart-simple nav-icon5"></i>
+        <a href="index.html">Activity</a>
+      </li>
+      <li class="nav-item">
+        <i class="fa-solid fa-headset nav-icon6"></i>
+        <a href="index.html">Support</a>
+      </li>
+    </ul>
+    <ul class="nav-items nav-2">
+      <li class="nav-item">
+        <i class="fa-solid fa-gear nav-icon7"></i>
+        <a href="index.html">Settings</a>
+      </li>
+      <li class="nav-item">
+        <i class="fa-solid fa-right-from-bracket nav-icon8"></i>
+        <a href="index.html">Logout</a>
+      </li>
+    </ul>
+  </nav>
+  <setion class="content">
+    <div class="title-btn">
+      <h1>Overview</h1>
+      <select name="time" id="time">
+        <option value="Today" selected>Today</option>
+        <option value="LastWeek">Last Week</option>
+        <option value="LastMonth">Last Month</option>
+        <option value="Lastyear">Last year</option>
+        <option value="AllTime">All Time</option>
+      </select>
+    </div>
+    <div class="overview">
+      <div class="card card1">
+        <div class="card-text-icon">
+          <div class="card-text">
+            <h4>Total Doctors</h4>
+            <h1>152</h1>
+          </div>
+          <i class="fa-solid fa-user-doctor card-icon card-icon1"></i>
+        </div>
+        <div class="card-info">
+          <div class="card-info-icons">
+            <i class="fa-solid fa-chart-simple info-card"></i>
+            <p>65%</p>
+          </div>
+          <div class="card-info-icons">
+            <i class="fa-solid fa-caret-up"></i>
+            <p>10</p>
+          </div>
+          <div class="card-info-icons">
+            <i class="fa-solid fa-caret-down"></i>
+            <p>2</p>
+          </div>
+        </div>
+      </div>
+      <div class="card card2">
+        <div class="card-text-icon">
+          <div class="card-text">
+            <h4>Total Patients</h4>
+            <h1>1145</h1>
+          </div>
+          <i class="fa-solid fa-user card-icon2"></i>
+        </div>
+        <div class="card-info">
+          <div class="card-info-icons">
+            <i class="fa-solid fa-chart-simple info-card"></i>
+            <p>82%</p>
+          </div>
+          <div class="card-info-icons">
+            <i class="fa-solid fa-caret-up"></i>
+            <p>230</p>
+          </div>
+          <div class="card-info-icons">
+            <i class="fa-solid fa-caret-down"></i>
+            <p>45</p>
+          </div>
+        </div>
+      </div>
+      <div class="card card3">
+        <div class="card-text-icon">
+          <div class="card-text">
+            <h4>Schedule</h4>
+            <h1>102</h1>
+          </div>
+          <i class="fa-solid fa-calendar-days card-icon3"></i>
+        </div>
+        <div class="card-info">
+          <div class="card-info-icons">
+            <i class="fa-solid fa-chart-simple info-card"></i>
+            <p>27%</p>
+          </div>
+          <div class="card-info-icons">
+            <i class="fa-solid fa-caret-up"></i>
+            <p>31</p>
+          </div>
+          <div class="card-info-icons">
+            <i class="fa-solid fa-caret-down"></i>
+            <p>23</p>
+          </div>
+        </div>
+      </div>
+      <div class="card card4">
+        <div class="card-text-icon">
+          <div class="card-text">
+            <h4>Beds Available</h4>
+            <h1>15</h1>
+          </div>
+          <i class="fa-solid fa-bed card-icon4"></i>
+        </div>
+        <div class="card-info">
+          <div class="card-info-icons">
+            <i class="fa-solid fa-chart-simple info-card"></i>
+            <p>8%</p>
+          </div>
+          <div class="card-info-icons">
+            <i class="fa-solid fa-caret-up"></i>
+            <p>11</p>
+          </div>
+          <div class="card-info-icons">
+            <i class="fa-solid fa-caret-down"></i>
+            <p>2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="title-btn">
+      <h1>Doctors</h1>
+      <div class="btns">
+        <select name="choice" id="choice">
+          <option value="Filter" selected>Filter</option>
+          <option value="Free">Free</option>
+          <option value="Scheduled">Scheduled</option>
+        </select>
+        <button>
+          <i class="fa-regular fa-plus"></i>
+          Add Doctor
+        </button>
+      </div>
+    </div>
+    <div class="doctors">
+      <div class="card-doctor">
+        <img src="imgs/doctor1.jpg" alt="doctor1">
+        <p class="free">Free</p>
+      </div>
+      <div class="card-doctor">
+        <img src="imgs/doctor2.jpg" alt="doctor2">
+        <p class="scheduled">Scheduled</p>
+      </div>
+      <div class="card-doctor">
+        <img src="imgs/doctor3.jpg" alt="doctor3">
+        <p class="scheduled">Scheduled</p>
+      </div>
+      <div class="card-doctor">
+        <img src="imgs/doctor4.jpg" alt="doctor4">
+        <p class="free">Free</p>
+      </div>
+      <div class="card-doctor">
+        <img src="imgs/doctor5.jpg" alt="doctor5">
+        <p class="scheduled">Scheduled</p>
+      </div>
+      <div class="card-doctor">
+        <img src="imgs/doctor6.jpg" alt="doctor6">
+        <p class="free">Free</p>
+      </div>
+      <div class="card-doctor">
+        <img src="imgs/doctor7.jpg" alt="doctor7">
+        <p class="scheduled">Scheduled</p>
+      </div>
+    </div>
+    <div class="title-btn">
+      <h1>Recent Patients</h1>
+      <div class="btns">
+        <button>
+          <i class="fa-regular fa-plus"></i>
+          Add Doctor
+        </button>
+      </div>
+    </div>
+    
+      <table class="recent">
+        <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Date in</th>
+          <th>Gender</th>
+          <th>Age</th>
+          <th>Status</th>
+          <th>Settings</th>
+        </tr>
+        <tr>
+          <td>Cameron Williamson</td>
+          <td>30/07/2022</td>
+          <td>Male</td>
+          <td>61Kg</td>
+          <td class="pending">pending</td>
+          <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-sharp fa-solid fa-trash"></i></td>
+        </tr>
+        <tr>
+          <td>George Washington</td>
+          <td>30/07/2022</td>
+          <td>Male</td>
+          <td>54Kg</td>
+          <td class="confirmed">confirmed</td>
+          <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-sharp fa-solid fa-trash"></i></td>
+        </tr>
+        <tr>
+          <td>John Adams</td>
+          <td>29/07/2022</td>
+          <td>Male</td>
+          <td>56Kg</td>
+          <td class="confirmed">confirmed</td>
+          <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-sharp fa-solid fa-trash"></i></td>
+        </tr>
+        <tr>
+          <td>Thomas Jefferson</td>
+          <td>29/07/2022</td>
+          <td>Male</td>
+          <td>11Kg</td>
+          <td class="rejected">rejected</td>
+          <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-sharp fa-solid fa-trash"></i></td>
+        </tr>
+        <tr>
+          <td>James Madison</td>
+          <td>29/07/2022</td>
+          <td>Male</td>
+          <td>69Kg</td>
+          <td class="confirmed">confirmed</td>
+          <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-sharp fa-solid fa-trash"></i></td>
+        </tr>
+        <tr>
+          <td>Andrew Jackson</td>
+          <td>28/07/2022</td>
+          <td>Male</td>
+          <td>88Kg</td>
+          <td class="confirmed">confirmed</td>
+          <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-sharp fa-solid fa-trash"></i></td>
+        </tr>
+      </tbody>
+      </table>
+  </setion>
+  <script src="https://kit.fontawesome.com/3b8b94a692.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
